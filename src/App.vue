@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Contador from './components/juegos/Contador.vue'
 </script>
 
 <template>
@@ -11,4 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
         desde utilidades, juegos sencillo, hasta proyectos avanzados.
         Este es el despliegue numero 2, se hace automaticamente con git push
     </p>
+    <br>
+        Primer proyecto.
+        <Contador/>
 </template>
